@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cherry Nails - By Camila Umpierre</title>
+
+  <!-- Fonts & icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader" aria-hidden="true">
+    <div class="spinner" role="status" aria-label="Carregando"></div>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <header class="hero" role="banner" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-logo animate-on-scroll" data-animation="zoom-in">
+          <img src="images/cherry-nails-logo.png" alt="Cherry Nails - By Camila Umpierre" class="logo-image">
+        </div>
+
+        <div class="hero-text animate-on-scroll" data-animation="fade-in-up">
+          <h1 class="hero-title">
+            Unhas com <span id="typed-text" aria-live="polite"></span>
+          </h1>
+          <p class="hero-sub">Carinho, técnica e estilo em cada detalhe. Agende seu horário!</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-large" href="#contact" id="cta-hero"><i class="fab fa-whatsapp"></i> Agendar Horário</a>
+            <a class="btn btn-secondary" href="#gallery">Ver Trabalhos</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container text-center animate-on-scroll" data-animation="fade-in">
+        <h2 class="section-title">⭑ Sobre o Studio ⭑</h2>
+        <p class="about-text">No Studio trabalhamos com produtos de alta qualidade e dedicação para que suas unhas reflitam sua essência. Cada atendimento é exclusivo, feito com muito cuidado.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title text-center animate-on-scroll" data-animation="fade-in">Serviços</h2>
+
+        <div class="slider-wrapper animate-on-scroll" data-animation="fade-in">
+          <button class="slider-arrow prev" id="services-prev" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+
+          <div class="services-slider" id="services-slider" role="list">
+            <article class="service-card animate-on-scroll" role="listitem" data-animation="scale-up" aria-label="Alongamento no Molde F1">
+              <div class="service-icon"><img src="images/213-12.png" alt=""></div>
+              <h3>Alongamento no Molde F1</h3>
+              <div class="price">R$ 120,00</div>
+              <p class="service-desc">Técnica com molde F1 para unhas alongadas em gel. Acabamento preciso e natural.</p>
+              <div class="service-includes"><strong>Incluso:</strong> cutilagem e esmaltação</div>
+              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20um%C2%A0Alongamento%20"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+            </article>
+
+            <article class="service-card animate-on-scroll" data-animation="scale-up" data-delay="100">
+              <div class="service-icon"><img src="images/3e2213.png" alt=""></div>
+              <h3>Manutenção do Alongamento</h3>
+              <div class="price">R$ 85,00</div>
+              <p class="service-desc">Reposição de gel com correção de imperfeições e renovação do acabamento.</p>
+              <div class="service-includes"><strong>Incluso:</strong> cutilagem e esmaltação</div>
+              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20uma%C2%A0Manuten%C3%A7%C3%A3o%20"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+            </article>
+
+            <article class="service-card animate-on-scroll" data-animation="scale-up" data-delay="200">
+              <div class="service-icon"><img src="images/321.png" alt=""></div>
+              <h3>Remoção de Alongamento</h3>
+              <div class="price">R$ 50,00</div>
+              <p class="service-desc">Remoção profissional e finalização com tratamento nutritivo.</p>
+              <div class="service-includes"><strong>Incluso:</strong> hidratação das cutículas</div>
+              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20uma%C2%A0Remo%C3%A7%C3%A3o%20"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+            </article>
+
+            <article class="service-card animate-on-scroll" data-animation="scale-up" data-delay="300">
+              <div class="service-icon"><img src="images/3e2321.png" alt=""></div>
+              <h3>Blindagem + Esmaltação em Gel</h3>
+              <div class="price">R$ 65,00</div>
+              <p class="service-desc">Proteção extra com camada selante e esmaltação em gel duradoura.</p>
+              <div class="service-includes"><strong>Incluso:</strong> cutilagem e esmaltação</div>
+              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20uma%C2%A0Blindagem%20"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+            </article>
+
+            <article class="service-card animate-on-scroll" data-animation="scale-up" data-delay="400">
+              <div class="service-icon"><img src="images/321.png" alt=""></div>
+              <h3>Banho de Gel</h3>
+              <div class="price">R$ 80,00</div>
+              <p class="service-desc">Aplicação de gel para fortalecimento sem alterar o comprimento.</p>
+              <div class="service-includes"><strong>Incluso:</strong> cutilagem e esmaltação</div>
+              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20uma%C2%A0Aplicacao%20de%20gel"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+            </article>
+          </div>
+
+          <button class="slider-arrow next" id="services-next" aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="section-title text-center animate-on-scroll" data-animation="fade-in">Galeria de Trabalhos</h2>
+
+        <div class="slider-wrapper animate-on-scroll" data-animation="fade-in">
+          <button class="slider-arrow prev" id="gallery-prev" aria-label="Galeria anterior"><i class="fas fa-chevron-left"></i></button>
+
+          <div class="gallery-slider" id="gallery-slider" role="list">
+            <img src="images/1000495026.jpg" alt="Trabalho 1" class="gallery-item animate-on-scroll" data-animation="scale-up">
+            <img src="images/1000486046.jpg" alt="Trabalho 2" class="gallery-item animate-on-scroll" data-animation="scale-up" data-delay="100">
+            <img src="images/1000486051.jpg" alt="Trabalho 3" class="gallery-item animate-on-scroll" data-animation="scale-up" data-delay="200">
+            <img src="images/1000491171.jpg" alt="Trabalho 4" class="gallery-item animate-on-scroll" data-animation="scale-up" data-delay="300">
+            <img src="images/1000493942.jpg" alt="Trabalho 5" class="gallery-item animate-on-scroll" data-animation="scale-up" data-delay="400">
+            <img src="images/1000495018.jpg" alt="Trabalho 6" class="gallery-item animate-on-scroll" data-animation="scale-up" data-delay="600">
+            <img src="images/1000503440.jpg" alt="Trabalho 7" class="gallery-item animate-on-scroll" data-animation="scale-up" data-delay="700">
+            <img src="images/Imagem do WhatsApp de 2025-09-03 à(s) 23.41.56_330f279a.jpg" alt="Trabalho 8" class="gallery-item animate-on-scroll" data-animation="scale-up" data-delay="800">
+            <img src="images/1000505578.jpg" alt="Trabalho 9" class="gallery-item animate-on-scroll" data-animation="scale-up" data-delay="900">
+          </div>
+
+          <button class="slider-arrow next" id="gallery-next" aria-label="Galeria próximo"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title text-center animate-on-scroll" data-animation="fade-in">Agende Seu Horário</h2>
+        <p class="section-subtitle text-center animate-on-scroll" data-animation="fade-in">Transforme suas unhas com carinho e profissionalismo — vagas limitadas!</p>
+
+        <div class="contact-container animate-on-scroll" data-animation="scale-up">
+          <div class="contact-info">
+            <h4>Informações de Contato</h4>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+              <div class="contact-text">
+                <strong>WhatsApp</strong>
+                <p>(55) 55 99902-8320</p>
+                <a href="https://wa.me/5555999028320" target="_blank" rel="noopener">Enviar mensagem</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="far fa-envelope"></i></div>
+              <div class="contact-text">
+                <strong>E-mail</strong>
+                <p>cherrynailsump@gmail.com</p>
+                <a href="mailto:cherrynailsump@gmail.com">Enviar e-mail</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="far fa-map"></i></div>
+              <div class="contact-text">
+                <strong>Endereço</strong>
+                <p>Alfredo Gomes Gonçalves, 161 — São Gregório, São Gabriel, RS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <div class="location-box">
+              <h5>Nossa Localização</h5>
+              <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.896937014487!2d-54.317394224237404!3d-30.325449244364833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95014f6d73f88fc7%3A0xd0e4979b431d52b!2sR.%20Alfredo%20Gomes%20Gon%C3%A7alves%2C%20161%20-%20S%C3%A3o%20Gregorio%2C%20S%C3%A3o%20Gabriel%20-%20RS%2C%2097300-000!5e0!3m2!1spt-BR!2sbr!4v1756956026905!5m2!1spt-BR!2sbr" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+            <div class="actions-box">
+              <h5>Pronta para transformar suas unhas?</h5>
+              <p>Agende agora mesmo seu horário e venha viver essa experiência única!</p>
+              <a class="btn btn-primary btn-block" href="https://wa.me/5555999028320" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> Agendar via WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <p>© 2025 Cherry Nails. Todos os direitos reservados. • Created by <a href="https://www.instagram.com/unicky.dsg" target="_blank" rel="noopener">@unicky.dsg</a></p>
+    </div>
+  </footer>
+
+  <a id="back-to-top" href="#" aria-label="Voltar ao topo"><i class="fas fa-arrow-up"></i></a>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <span class="lightbox-close" role="button" aria-label="Fechar">×</span>
+    <img class="lightbox-content" id="lightbox-img" alt="">
+  </div>
+
+  <!-- Typed.js e script -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
