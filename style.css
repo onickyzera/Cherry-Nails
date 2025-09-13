@@ -81,7 +81,9 @@ section{padding:40px 0}
 
 .service-card{
   flex:0 0 360px;           /* cards maiores */
-  max-width:420px;
+    min-width: 86%; 
+  max-width: 86%; 
+  padding: 22px;
   background:var(--white);
   border-radius:20px;
   padding:30px;
