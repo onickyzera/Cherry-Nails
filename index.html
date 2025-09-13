@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -15,11 +15,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <!-- PRELOADER -->
   <div id="preloader" aria-hidden="true">
     <div class="spinner" role="status" aria-label="Carregando"></div>
   </div>
+
+  <!-- DARK MODE TOGGLE -->
+  <button id="darkModeToggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
 
   <main>
     <!-- HERO -->
@@ -57,56 +59,56 @@
         <h2 class="section-title text-center animate-on-scroll" data-animation="fade-in">Serviços</h2>
 
         <div class="slider-wrapper animate-on-scroll" data-animation="fade-in">
-          <button class="slider-arrow prev" id="services-prev" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+          <button class="slider-arrow prev" id="services-prev" aria-label="Anterior serviço"><i class="fas fa-chevron-left"></i></button>
 
           <div class="services-slider" id="services-slider" role="list">
             <article class="service-card animate-on-scroll" role="listitem" data-animation="scale-up" aria-label="Alongamento no Molde F1">
-              <div class="service-icon"><img src="images/213-12.png" alt=""></div>
+              <div class="service-icon"><img src="images/213-12.png" alt="Ícone Alongamento"></div>
               <h3>Alongamento no Molde F1</h3>
               <div class="price">R$ 120,00</div>
               <p class="service-desc">Técnica com molde F1 para unhas alongadas em gel. Acabamento preciso e natural.</p>
               <div class="service-includes"><strong>Incluso:</strong> cutilagem e esmaltação</div>
-              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20um%C2%A0Alongamento%20"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+              <a class="btn btn-service" href="https://wa.me/5555999028320"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
             </article>
 
             <article class="service-card animate-on-scroll" data-animation="scale-up" data-delay="100">
-              <div class="service-icon"><img src="images/3e2213.png" alt=""></div>
+              <div class="service-icon"><img src="images/3e2213.png" alt="Ícone Manutenção"></div>
               <h3>Manutenção do Alongamento</h3>
               <div class="price">R$ 85,00</div>
               <p class="service-desc">Reposição de gel com correção de imperfeições e renovação do acabamento.</p>
               <div class="service-includes"><strong>Incluso:</strong> cutilagem e esmaltação</div>
-              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20uma%C2%A0Manuten%C3%A7%C3%A3o%20"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+              <a class="btn btn-service" href="https://wa.me/5555999028320"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
             </article>
 
             <article class="service-card animate-on-scroll" data-animation="scale-up" data-delay="200">
-              <div class="service-icon"><img src="images/321.png" alt=""></div>
+              <div class="service-icon"><img src="images/321.png" alt="Ícone Remoção"></div>
               <h3>Remoção de Alongamento</h3>
               <div class="price">R$ 50,00</div>
               <p class="service-desc">Remoção profissional e finalização com tratamento nutritivo.</p>
               <div class="service-includes"><strong>Incluso:</strong> hidratação das cutículas</div>
-              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20uma%C2%A0Remo%C3%A7%C3%A3o%20"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+              <a class="btn btn-service" href="https://wa.me/5555999028320"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
             </article>
 
             <article class="service-card animate-on-scroll" data-animation="scale-up" data-delay="300">
-              <div class="service-icon"><img src="images/3e2321.png" alt=""></div>
+              <div class="service-icon"><img src="images/3e2321.png" alt="Ícone Blindagem"></div>
               <h3>Blindagem + Esmaltação em Gel</h3>
               <div class="price">R$ 65,00</div>
               <p class="service-desc">Proteção extra com camada selante e esmaltação em gel duradoura.</p>
               <div class="service-includes"><strong>Incluso:</strong> cutilagem e esmaltação</div>
-              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20uma%C2%A0Blindagem%20"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+              <a class="btn btn-service" href="https://wa.me/5555999028320"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
             </article>
 
             <article class="service-card animate-on-scroll" data-animation="scale-up" data-delay="400">
-              <div class="service-icon"><img src="images/321.png" alt=""></div>
+              <div class="service-icon"><img src="images/321.png" alt="Ícone Banho de Gel"></div>
               <h3>Banho de Gel</h3>
               <div class="price">R$ 80,00</div>
               <p class="service-desc">Aplicação de gel para fortalecimento sem alterar o comprimento.</p>
               <div class="service-includes"><strong>Incluso:</strong> cutilagem e esmaltação</div>
-              <a class="btn btn-service" href="https://wa.me/5555999028320?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20uma%C2%A0Aplicacao%20de%20gel"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
+              <a class="btn btn-service" href="https://wa.me/5555999028320"><i class="far fa-calendar-alt"></i> Agendar Serviço</a>
             </article>
           </div>
 
-          <button class="slider-arrow next" id="services-next" aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
+          <button class="slider-arrow next" id="services-next" aria-label="Próximo serviço"><i class="fas fa-chevron-right"></i></button>
         </div>
       </div>
     </section>
