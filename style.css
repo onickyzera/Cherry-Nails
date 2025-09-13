@@ -81,9 +81,7 @@ section{padding:40px 0}
 
 .service-card{
   flex:0 0 360px;           /* cards maiores */
-    min-width: 86%; 
-  max-width: 86%; 
-  padding: 22px;
+  max-width:420px;
   background:var(--white);
   border-radius:20px;
   padding:30px;
@@ -148,7 +146,7 @@ section{padding:40px 0}
 
 /* RESPONSIVE */
 @media (max-width: 720px) {
-  .service-card{min-width: 86%; max-width: 86%; padding: 22px}
+  .service-card{min-width: 86%; max-width: 96%; padding: 52px}
   .gallery-item{flex:0 0 86%;height:220px}
   .slider-arrow{display:none} /* remove setas em telas pequenas (swipe) */
 }
