@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------------------------
      1) Preloader (fade + safe hide)
-  --------------------------- */
+  --------------------------- 
   const preloader = document.getElementById('preloader');
   if (preloader) {
     // small delay so user sees spinner while DOM loads
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (preloader.parentNode) preloader.parentNode.removeChild(preloader);
       }, 350);
     }, 200);
-  }
+  } */
 
   /* ---------------------------
      2) Typed.js (hero)
